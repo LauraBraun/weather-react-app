@@ -3,7 +3,7 @@ import FormattedDate from "./FormattedDate";
 
 export default function Weather (props) {
     return (<div className="Weather">
-        <img src="" alt={props.info.description} id="currentConditions" />
+        <img src={props.info.icon} alt={props.info.description} id="currentConditions" />
               <span className="currentTemp">{Math.round(props.info.temp)}</span>
               <button id="degreeConversion">°C</button>
           <div className="col">
