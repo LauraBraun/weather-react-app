@@ -1,4 +1,6 @@
 #weatherIcon {
+  position: relative;
+  bottom: -15px;
   display: inline-block;
-  margin: 20px 10px;
+  margin: 20px 20px;
 }

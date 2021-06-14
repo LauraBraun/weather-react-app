@@ -1,0 +1,19 @@
+.currentTemp {
+  display: inline-block;
+  font-size: 60px;
+}
+
+#degreeConversion {
+  font-size: 20px;
+  background-color: #3e4c76;
+  color: aliceblue;
+  border-radius: 10px;
+  position: relative;
+  top: -20px;
+  right: -5px;
+}
+
+#degreeConversion:hover {
+  color: #3e4c76;
+  background-color: aliceblue;
+}
