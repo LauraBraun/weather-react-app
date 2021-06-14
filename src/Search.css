@@ -13,16 +13,9 @@ footer i {
   background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
-#currentConditions {
-  display: block;
-}
-
-#weatherDescription:first-letter {
-  text-transform: capitalize;
-}
 .currentTemp {
   font-size: 60px;
-  margin: 0px 30px;
+  margin: 0px 20px;
   line-height: 1;
 }
 

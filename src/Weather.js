@@ -1,9 +1,11 @@
 import React from "react";
+import WeatherIcon from "./WeatherIcon";
 import FormattedDate from "./FormattedDate";
+import "./Weather.css";
 
 export default function Weather (props) {
     return (<div className="Weather">
-        <img src={props.info.icon} alt={props.info.description} id="currentConditions" />
+        <WeatherIcon code={props.info.icon} id="currentConditions" />
               <span className="currentTemp">{Math.round(props.info.temp)}</span>
               <button id="degreeConversion">°C</button>
           <div className="col">
