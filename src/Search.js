@@ -1,6 +1,7 @@
 import React, { useState} from "react";
 import axios from "axios";
 import Weather from "./Weather";
+import WeatherForecast from "./WeatherForecast"
 import "./Search.css";
 
 export default function Search(props){
@@ -39,8 +40,8 @@ export default function Search(props){
   if (weather.ready) {
   return (
     <div className="Search"> 
-        <div className="row">
-          <div className="col-sm">
+        <div>
+          <div>
             <form id="citysearch" onSubmit={handleSubmit}>
               <div className="input-group mb-3">
                 <input
@@ -66,11 +67,10 @@ export default function Search(props){
                 Current location
               </button>
               <Weather info={weather} />
-              </section>
+               </section>
+               <br />
         </div>
-      <footer>
-        <div className="row" id="forecast"></div>
-      </footer>
+        <WeatherForecast />
       </div>
       </div>);
   } else {
