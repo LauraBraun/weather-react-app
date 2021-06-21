@@ -3,6 +3,12 @@
   padding: 30px;
   border: 2px solid aliceblue;
   border-radius: 30px;
-  width: 50%;
+  width: 60%;
   background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+@media (max-width: 900px) {
+  .Search {
+    width: 90%;
+  }
 }

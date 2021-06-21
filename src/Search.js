@@ -64,10 +64,7 @@ export default function Search(props){
               </div>
             </form>
             <section id="displayCurrentWeather">
-              <button className="btn btn-outline-secondary" id="coordinates">
-                Current location
-              </button>
-              <Weather info={weather} />
+                            <Weather info={weather} />
                </section>
                <br />
         </div>
